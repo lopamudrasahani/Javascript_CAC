@@ -9,7 +9,8 @@ let accountState;
 
 accountEmail = "bnsjsls@gmail.com";
 accountPassword ="bnsjsls2090";
-accountCity ="bhubaneswar";
+accountCity ="Bhubaneswar";
+accountState = "Odisha";
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
 
