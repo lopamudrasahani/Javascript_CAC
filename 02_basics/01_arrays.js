@@ -5,7 +5,7 @@
 
 //create an array Using an array literal
 const myArr =[6,7,8,9,10];
-const myHeros = ["maa","bapa"];
+const myHeros = ["lux","lexi"];
 console.log(myArr);
 
 //create an array Using the JavaScript Keyword new

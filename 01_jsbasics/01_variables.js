@@ -1,6 +1,6 @@
 const accountId = 1000000;
 let accountEmail = "ls@gmail.com";
-var accountPassword = "lslp2090";
+var accountPassword = "lslp1";
 accountCity = "Bangalore";
 let accountState;
 
@@ -9,8 +9,8 @@ let accountState;
 
 accountEmail = "bnsjsls@gmail.com";
 accountPassword ="bnsjsls2090";
-accountCity ="Bhubaneswar";
-accountState = "Odisha";
+accountCity ="hyderabad";
+accountState = "Telangana";
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
 

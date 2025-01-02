@@ -3,8 +3,8 @@
 //alert(3 + 3); //we are using node.js not browser
 
 
-console.log( '10lpa');
-console.log("join us on jan 21st to 24th, 2025");
+console.log( '387868ddf');
+console.log("hello");
 console.log(10 
     +
     5
