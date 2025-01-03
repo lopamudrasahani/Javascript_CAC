@@ -38,3 +38,28 @@ const myFunction = function(){
     console.log("Hello World!");
 }
 console.log(myFunction);//[Function: myFunction]
+
+
+//**************************************stack memory and heap memory*********************************************
+//stack(primitive datatype) and heap(non-primitive or reference datatype)
+
+let myName = "ls";
+
+let myGoodname = myName;//here myGoodname 'll get the copy of myName variable value i.e "ls"
+myGoodname = "BNSJSLS";
+
+console.log(myName);//ls
+console.log(myGoodname);//BNSJSLS
+
+let userOne = 
+{
+    email:"ls@gmail.com",
+    job: "software developer"
+}
+
+let userTwo = userOne;//here userTwo'll get the same reference value of userOne
+
+userTwo.email = "bnsjsls@gmail.com";
+
+console.log(userOne.email);//"bnsjsls@gmail.com"
+console.log(userTwo.email);//"bnsjsls@gmail.com"
